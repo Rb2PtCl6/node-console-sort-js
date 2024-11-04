@@ -1,4 +1,4 @@
-﻿const prompt = require('prompt-sync')()
+﻿const prompt = require('prompt-sync')() // функция для получения ввода с клавиатуры
 
 class get_number_wrap {
     /**
@@ -16,7 +16,7 @@ class get_number_wrap {
      * @param {string} mb_number
      * @return {boolean}
      */
-    static is_number(mb_number) {
+    static is_number(mb_number) { // функция для валидации номера
         var tmp = Number(mb_number)
         return ((mb_number !== "") && !isNaN(tmp) && isFinite(tmp))
     }
@@ -24,7 +24,7 @@ class get_number_wrap {
      * @param {string} question
      * @return {number}
      */
-    get(question) {
+    get(question) { // функция, которая запрашивает у пользователя ввод числа, проверяет ввод и возвращиет число
         var answer = ""
         var first_interaction = true
         do {

@@ -1,12 +1,12 @@
-This file explains how Visual Studio created the project.
+﻿Данный проект содержит код для 2 работы по "Разработке програмных систем" студента Громова Никиты из группы 433
 
-The following steps were used to generate this project:
-- Create project file (`node-console-sort-js.esproj`).
-- Create `launch.json` to enable debugging.
-- Create `nuget.config` to specify location of the JavaScript Project System SDK (which is used in the first line in `node-console-sort-js.esproj`).
-- Install npm packages: `npm init && npm i --save-dev eslint`.
-- Create `app.js`.
-- Update `package.json` entry point.
-- Create `eslint.config.js` to enable linting.
-- Add project to solution.
-- Write this file.
+В проекте есть следующие файлы:
+- `app.js` - точка входа в программу
+- `export.js` - модуль для сохранения данных
+- `input.js` - модуль для получения ввода с консоли
+- `sort.js` - модуль для сортировки данных
+- `test.js` - модуль для запуска тестов
+- `test_array.json` - файл с зараннее созданными тестами
+
+[Ссылка на репозитарий](https://github.com/Rb2PtCl6/node-console-sort-js) <br>
+Создано 04.11.2024

@@ -1,5 +1,5 @@
-﻿const fs = require("fs")
-const prompt = require('prompt-sync')()
+﻿const fs = require("fs") // модуль для работы с файловой системой
+const prompt = require('prompt-sync')() // функция для получения ввода с клавиатуры
 
 class file_writer {
     /**
@@ -16,7 +16,7 @@ class file_writer {
     /**
      * @return {string}
      */
-    #enter_filename() {
+    #enter_filename() { // метод для запроса имени файла
         var tmp = ""
         var first_interaction = true
         do {
@@ -25,14 +25,14 @@ class file_writer {
             }
             tmp = prompt("Введите имя файла (допустимые символы : a-z, 0-9, -, _ ;расширение файла .json): ")
             first_interaction = false
-        } while (!(/[0-9a-z\-_]{1,}.json/gm.test(tmp)))
+        } while (!(/[0-9a-z\-_]{1,}.json/gm.test(tmp))) // валидация имени файла регуляркой
         return tmp
     }
     /**
      * @param {string} filename
      * @return {boolean}
      */
-    #is_possibly_to_write(filename) {
+    #is_possibly_to_write(filename) { // проверка на возможность записи в файл
         try {
             fs.statSync(filename);
             return false
@@ -47,7 +47,7 @@ class file_writer {
      * @param {string} filename
      * @return {boolean}
      */
-    #is_necesary_to_rewrite(filename) {
+    #is_necesary_to_rewrite(filename) { // запрос на перезапись файла
         var tmp = prompt(`Хотите перезаписать файл '${filename}'? (y/n): `)
         switch (tmp) {
             case 'y':
@@ -65,7 +65,7 @@ class file_writer {
      * @param {string} filename
      * @param {object} content
      */
-    write(content) {
+    write(content) { // запись файла
         var filename = this.#enter_filename()
         if (this.#is_possibly_to_write(filename)) {
             fs.writeFileSync(filename, JSON.stringify(content), (err) => {

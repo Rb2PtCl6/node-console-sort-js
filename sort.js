@@ -1,5 +1,4 @@
-﻿// https://www.doabledanny.com/merge-sort-javascript
-class sort_wrap {
+﻿class sort_wrap {
     /**
      * @type {number[]}
      */
@@ -28,24 +27,24 @@ class sort_wrap {
         this.#input_array = array;
         this.#run_sorting()
     }
-    #clear_data() {
+    #clear_data() { // очищает внутрение массивы
         this.#input_array = [];
         this.#output_array = [];
     }
-    #run_sorting() {
+    #run_sorting() { // запускает сортировку
         this.#output_array = this.#mergeSort(this.#input_array)
     }
     /**
     * @return {{ input_array: number[], output_array: number[] } }
     */
-    get get_result() {
+    get get_result() { // возвращает результат
         return { input_array: this.#input_array, output_array: this.#output_array };
     }
     /**
      * @param {number[]} array
      * @return {number[]}
      */
-    #mergeSort(array) {
+    #mergeSort(array) { // основная функция для сортировки слиянием
         // Base case
         if (array.length <= 1) return array;
         var mid = Math.floor(array.length / 2);
@@ -59,31 +58,33 @@ class sort_wrap {
      * @param {number[]} right
      * @return {number[]}
      */
-    #merge(left, right) {
+    #merge(left, right) { // вспомогательная функция для сортировки слиянием
         /**
         * @type {number[]}
         */
-        var sortedArr = []; // the sorted items will go here
+        var sortedArr = []; // место хранения отсортированного массива
         /**
         * @type {number}
         */
         var tmp
         while (left.length && right.length) {
-            // Insert the smallest item into sortedArr
+            // вставка элементов в отсортированный массив
+            // array.shift() - удаляет из массива первый элемент и возвращает его
             if (left[0] < right[0]) {
                 tmp = left.shift();
-                if (tmp !== undefined) {
+                if (tmp !== undefined) { // проверка для исключения добавления в отсортированный массив пустого значения
                     sortedArr.push(tmp);
                 }
             } else {
                 tmp = right.shift();
-                if (tmp !== undefined) {
+                if (tmp !== undefined) { // проверка для исключения добавления в отсортированный массив пустого значения
                     sortedArr.push(tmp);
                 }
             }
         }
-        // Use spread operators to create a new array, combining the three arrays
-        return [...sortedArr, ...left, ...right];
+        // ...Arr - позволяет передавать итерируемые коллекции (например, массивы или строки) 
+        // как список аргументов функции или добавлять содержащиеся в них элементы в новый массив
+        return [...sortedArr, ...left, ...right]; // последовательно соедяняет массивы для получения одного
     }
 }
 
