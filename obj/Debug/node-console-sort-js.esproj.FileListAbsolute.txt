@@ -1,0 +1,1 @@
+T:\vs-projects\node-console-sort-js\obj\Debug\node-console-sort-js.esproj.CoreCompileInputs.cache
