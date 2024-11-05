@@ -45,10 +45,8 @@
      * @return {number[]}
      */
     #mergeSort(array) { // основная функция для сортировки слиянием
-        // Base case
         if (array.length <= 1) return array;
         var mid = Math.floor(array.length / 2);
-        // Recursive calls
         var left = this.#mergeSort(array.slice(0, mid));
         var right = this.#mergeSort(array.slice(mid));
         return this.#merge(left, right);
