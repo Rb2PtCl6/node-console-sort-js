@@ -65,6 +65,12 @@ class file_writer {
      * @param {object} content
      */
     write(content) { // запись файла
+        switch (prompt(`Хотите сохранить файл? (y/n): `)) {
+            case 'n':
+            case 'N':
+                console.log(`Сохранение пропущено!`)
+                return
+        }
         var filename = this.#enter_filename()
         if (this.#is_possibly_to_write(filename)) {
             fs.writeFileSync(filename, JSON.stringify(content), (err) => {
