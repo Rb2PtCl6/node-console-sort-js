@@ -48,8 +48,7 @@ class file_writer {
      * @return {boolean}
      */
     #is_necesary_to_rewrite(filename) { // запрос на перезапись файла
-        var tmp = prompt(`Хотите перезаписать файл '${filename}'? (y/n): `)
-        switch (tmp) {
+        switch (prompt(`Хотите перезаписать файл '${filename}'? (y/n): `)) {
             case 'y':
             case 'Y':
                 return true
@@ -71,12 +70,10 @@ class file_writer {
             fs.writeFileSync(filename, JSON.stringify(content), (err) => {
                 console.log("Ошибка! Не удалось записать файл: ", err)
             })
-        } else {
-            if (this.#is_necesary_to_rewrite(filename)) {
-                fs.writeFileSync(filename, JSON.stringify(content), (err) => {
-                    console.log("Ошибка! Не удалось записать файл: ", err)
-                })
-            }
+        } else if (this.#is_necesary_to_rewrite(filename)) {
+            fs.writeFileSync(filename, JSON.stringify(content), (err) => {
+                console.log("Ошибка! Не удалось записать файл: ", err)
+            })
         }
     }
 }

@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\export.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:export.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\sort.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:sort.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CHANGELOG.md",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\CHANGELOG.md",
+              "RelativeDocumentMoniker": "CHANGELOG.md",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\CHANGELOG.md",
+              "RelativeToolTip": "CHANGELOG.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-08T16:03:11.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "export.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\export.js",
+              "RelativeDocumentMoniker": "export.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\export.js",
+              "RelativeToolTip": "export.js",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T16:01:56.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "input.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\input.js",
+              "RelativeDocumentMoniker": "input.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\input.js",
+              "RelativeToolTip": "input.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T16:00:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\test.js",
+              "RelativeDocumentMoniker": "test.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\test.js",
+              "RelativeToolTip": "test.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T15:58:08.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sort.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\sort.js",
+              "RelativeDocumentMoniker": "sort.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\sort.js",
+              "RelativeToolTip": "sort.js",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwEcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-07T15:59:14.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|c:\\users\\pt(so4)2\\documents\\github\\node-console-sort-js\\sort.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4FB179DF-2E42-403B-89D3-D7D1172707B4}|node-console-sort-js.esproj|solutionrelative:sort.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\test.js",
+              "RelativeDocumentMoniker": "test.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\test.js",
+              "RelativeToolTip": "test.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T15:46:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sort.js",
+              "DocumentMoniker": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\sort.js",
+              "RelativeDocumentMoniker": "sort.js",
+              "ToolTip": "C:\\Users\\Pt(SO4)2\\Documents\\GitHub\\node-console-sort-js\\sort.js",
+              "RelativeToolTip": "sort.js",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-07T15:59:14.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

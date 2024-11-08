@@ -1,0 +1,9 @@
+obj/
+.vscode/
+.vs/
+node_modules/
+node-console-sort-js.esproj
+node-console-sort-js.sln
+nuget.config
+eslint.config.js
+*.json
