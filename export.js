@@ -72,11 +72,9 @@ class file_writer {
                 return
         }
         var filename = this.#enter_filename()
-        if (this.#is_possibly_to_write(filename)) {
-            fs.writeFileSync(filename, JSON.stringify(content), (err) => {
-                console.log("Ошибка! Не удалось записать файл: ", err)
-            })
-        } else if (this.#is_necesary_to_rewrite(filename)) {
+		// два условия объеденины в одно. если не сработает первое, то запуститься проверка второго
+		// если первое сработало, то второе не сработет, ибо условия связаны через или
+        if (this.#is_possibly_to_write(filename) || this.#is_necesary_to_rewrite(filename)) {
             fs.writeFileSync(filename, JSON.stringify(content), (err) => {
                 console.log("Ошибка! Не удалось записать файл: ", err)
             })
